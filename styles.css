@@ -160,3 +160,36 @@ footer a{
     padding-left: 20px;
     display: inline-block;
 }
+
+.container-signup{
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.message{
+    margin: 10px 70px;
+}
+
+.message span{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #8e8e8e;
+}
+
+.face-button{
+    width: 320px;
+    margin: 10px 0;
+    height: 35px;
+    background-color: #0095f6;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
