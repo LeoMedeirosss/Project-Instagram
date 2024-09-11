@@ -135,3 +135,28 @@ input[type="submit"]{
     height: 50px;
     padding: 0 12px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+footer a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.text-small{
+    font-size: 13px;
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+    padding-left: 20px;
+    display: inline-block;
+}
