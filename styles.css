@@ -121,3 +121,17 @@ input[type="submit"]{
     font-weight: bold;
     user-select: none;
 }
+
+.app-panel{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.app-buttons{
+    margin-top: 12px;
+}
+
+.app-buttons img{
+    height: 50px;
+    padding: 0 12px;
+}
