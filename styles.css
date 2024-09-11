@@ -68,7 +68,7 @@ form{
 input[type="password"], input[type="text"]{
     background-color: white;
     border: 1px solid rgb(236, 234, 234);
-    height: 35px;
+    height: 40px;
     border-radius: 5px;
     margin-top: 10px;
     padding: 10px;
@@ -92,11 +92,32 @@ input[type="password"]:focus,input[type="text"]:focus{
 input[type="submit"]{
     width: 320px;
     margin-top: 10px;
-    height: 30px;
+    height: 35px;
     border: 0;
     background-color: #3c96ed;
     border-radius: 4px;
     font-size: 15px;
     margin-bottom: 10px;
     font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.infobox{
+    background-color: #FFF;
+    height: 60px;
+    border: 1px solid rgb(236, 234, 234);
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infobox p{
+    user-select: none;
+}
+
+.infobox p a{
+    font-weight: bold;
+    user-select: none;
 }
