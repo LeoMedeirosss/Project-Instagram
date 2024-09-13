@@ -46,6 +46,9 @@ body{
     margin-bottom: 50px;
 }
 
+.right{
+    padding-left: 20px;
+}
 
 .login-pannel{
     background-color: #FFF;
@@ -208,4 +211,40 @@ footer a{
     font-weight: bold;
     margin: 0 3%;
     color: #8e8e8e;
+}
+
+@media(max-width: 850px){
+    .left{
+        display: none;
+    }
+
+    .container{
+        width: 65%;
+    }
+
+    .right{
+        padding-left: 0;
+    }
+}
+
+@media(max-widht: 550){
+    .container{
+        width: 85%;
+    }
+
+    .container-signup{
+        width: 85%;
+    }
+
+    input[type="password"], input[type="text"], input[type="submit"]{
+        width: 85%;
+    }
+
+    .app-buttons{
+        width: 85%;
+    }
+
+    .message{
+        margin: 10px 30px;
+    }
 }
